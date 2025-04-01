@@ -3,7 +3,7 @@ import { configDotenv } from 'dotenv'
 import { userModel } from './db'
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
-import { authMiddleware } from './middleware/authmiddleware'
+import { authMiddleware } from './middleware/authMiddleware'
 import mongoose from 'mongoose'
 configDotenv()
 const app=express()
